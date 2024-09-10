@@ -59,7 +59,7 @@ async def start_command(client: Client, message: Message):
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Bt Ho Rahi BC..!")
+            await message.reply_text("BT Ho Rahi BC..!")
             return
         await temp_msg.delete()
 
@@ -124,7 +124,7 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(text="Join 1 🍑", url = client.invitelink),
             InlineKeyboardButton(text="Join 2 🍒", url=client.invitelink2),
-            InlineKeyboardButton(text="Join 3 🎟 ", url=client.invitelink2),
+            InlineKeyboardButton(text="Join 3 🎟 ", url=client.invitelink3),
         ]
     ]
     try:
