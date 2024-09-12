@@ -55,7 +55,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Ruk Lode 🤓 ...")
+        temp_msg = await message.reply("Ruk Lodu 🤓 ...")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💀 About PAPA JI", callback_data = "about"),
+                    InlineKeyboardButton("💀 𝖠𝖻𝗈𝗎𝗍 𝖯𝖠𝖯𝖠 𝖩𝖨", callback_data = "about"),
                     InlineKeyboardButton("🍒 ᴘʀᴇᴍɪᴜᴍ", url='https://telegram.dog/ZenottyPremium')
                 ]
             ]
@@ -110,7 +110,7 @@ async def start_command(client: Client, message: Message):
     
 #=====================================================================================##
 
-WAIT_MSG = """"<b>🍒 Processing ...</b>"""
+WAIT_MSG = """"<b>🍒 𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝗂𝗇𝗀 ...</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
@@ -122,16 +122,18 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Join 1 🍑", url = client.invitelink),
-            InlineKeyboardButton(text="Join 2 🍒", url=client.invitelink2),
-            InlineKeyboardButton(text="Join 3 🎟 ", url=client.invitelink3),
+            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝟣 🍑", url = client.invitelink),
+            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝟤 🍒", url=client.invitelink2),
+        ],
+        [
+            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝟥 🎟 ", url=client.invitelink3),
         ]
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = '♻️ Try Again ♻️',
+                    text = '♻️ 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇 ♻️',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
