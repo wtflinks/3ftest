@@ -39,7 +39,7 @@ FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001995558393"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n<b>○</b> 𝖨 𝖺𝗆 𝖠𝖽𝗏𝖺𝗇𝖼𝖾 𝖡𝖮𝖳 𝖬𝗒 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <b>@Zenotty</b>\n\n𝖨 𝖼𝖺𝗇 𝗌𝗍𝗈𝗋𝖾 𝗉𝗋𝗂𝗏𝖺𝗍𝖾 𝖿𝗂𝗅𝖾𝗌 𝗂𝗇 𝖲𝗉𝖾𝖼𝗂𝖿𝗂𝖾𝖽 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖺𝗇𝖽 𝗈𝗍𝗁𝖾𝗋 𝗎𝗌𝖾𝗋𝗌 𝖼𝖺𝗇 𝖺𝖼𝖼𝖾𝗌𝗌 𝗂𝗍 𝖿𝗋𝗈𝗆 𝗌𝗉𝖾𝖼𝗂𝖺𝗅 𝗅𝗂𝗇𝗄.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -48,7 +48,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "HEY {first} Baby🌺\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝖧𝖾𝗒, {first} 💗 \n\n<b>You Need To Join In Our Channel/Group To Use Me\n\nKindly Please Join Channel</b>\n\n 𝖠𝗋𝖾𝖾 𝖡𝗁𝗂 𝖲𝖺𝗋𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖩𝗈𝗂𝗇 𝖪𝖺𝗋 𝖫𝖾 '𝖩𝗈𝗂𝗇' 𝖡𝗎𝗍𝗍𝗈𝗇 𝖯𝖺𝗋 𝖢𝗅𝗂𝖼𝗄  𝖪𝖺𝗋𝗄𝖾 𝖯𝗁𝗂𝗋 𝖡𝗈𝗍 𝖪𝖺𝗆 𝖪𝖺𝗋𝖾 𝖦𝖺 👇👇 (𝖵𝗂𝖽𝖾𝗈 𝖬𝗂𝗅 𝖩𝖺𝗒𝖾 𝖦𝗂) ")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -60,7 +60,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🤬 Matt Kar Bkl only File Share bot hu Mere Admin se Baat kar Premium SNAP-Leak Lena Hai Tho @ZenottyPremium !"
+USER_REPLY_TEXT = "🥰 𝖬𝖺𝗍𝗍 𝖪𝖺𝗋 𝖮𝗒𝖾 𝗈𝗇𝗅𝗒 𝖥𝗂𝗅𝖾 𝖲𝗁𝖺𝗋𝖾 𝖻𝗈𝗍 𝗁𝗎 𝖬𝖾𝗋𝖾 𝖠𝖽𝗆𝗂𝗇 𝗌𝖾 𝖡𝖺𝖺𝗍 𝗄𝖺𝗋 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖴𝗇𝗌𝖾𝖾𝗇 𝖲𝖭𝖠𝖯-𝖫𝖾𝖺𝗄 𝖫𝖾𝗇𝖺 𝖧𝖺𝗂 𝖳𝗁𝗈 @ZenottyPremium !!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
