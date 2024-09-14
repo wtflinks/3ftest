@@ -55,7 +55,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Ruk Lodu 🤓 ...")
+        temp_msg = await message.reply("Ruko Lodum 🤓 ...")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -122,8 +122,8 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝟣 🍑", url = client.invitelink),
-            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝟤 🍒", url=client.invitelink2),
+            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝟣 🍑", url = client.invitelink),
+            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝟤 🍒", url=client.invitelink2),
         ],
         [
             InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝟥 🎟 ", url=client.invitelink3),
