@@ -48,7 +48,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝖧𝖾𝗒, {first} 💗 \n\n<b>You Need To Join In Our Channel/Group To Use Me\n\nKindly Please Join Channel</b>\n\n 𝖠𝗋𝖾𝖾 𝖡𝗁𝗂 𝖲𝖺𝗋𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖩𝗈𝗂𝗇 𝖪𝖺𝗋 𝖫𝖾 '𝖩𝗈𝗂𝗇' 𝖡𝗎𝗍𝗍𝗈𝗇 𝖯𝖺𝗋 𝖢𝗅𝗂𝖼𝗄  𝖪𝖺𝗋𝗄𝖾 𝖯𝗁𝗂𝗋 𝖡𝗈𝗍 𝖪𝖺𝗆 𝖪𝖺𝗋𝖾 𝖦𝖺 👇👇 (𝖵𝗂𝖽𝖾𝗈 𝖬𝗂𝗅 𝖩𝖺𝗒𝖾 𝖦𝗂) ")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝖧𝖾𝗒, {first} 💗 \n\n<b>○</b> 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝗈 𝖩𝗈𝗂𝗇 𝖨𝗇 𝖮𝗎𝗋 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈 𝖴𝗌𝖾 𝖬𝖾 👇🏻👇🏻👇🏻 ")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -60,7 +60,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🥰 𝖬𝖺𝗍𝗍 𝖪𝖺𝗋 𝖮𝗒𝖾 𝗈𝗇𝗅𝗒 𝖥𝗂𝗅𝖾 𝖲𝗁𝖺𝗋𝖾 𝖻𝗈𝗍 𝗁𝗎 𝖬𝖾𝗋𝖾 𝖠𝖽𝗆𝗂𝗇 𝗌𝖾 𝖡𝖺𝖺𝗍 𝗄𝖺𝗋 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖴𝗇𝗌𝖾𝖾𝗇 𝖲𝖭𝖠𝖯-𝖫𝖾𝖺𝗄 𝖫𝖾𝗇𝖺 𝖧𝖺𝗂 𝖳𝗁𝗈 @ZenottyPremium !!"
+USER_REPLY_TEXT = "🥰 𝖬𝖺𝗍𝗍 𝖪𝖺𝗋 𝖮𝗒𝖾 𝗈𝗇𝗅𝗒 𝖥𝗂𝗅𝖾 𝖲𝗁𝖺𝗋𝖾 𝖻𝗈𝗍 𝗁𝗎 𝖬𝖾𝗋𝖾 𝖠𝖽𝗆𝗂𝗇 𝗌𝖾 𝖡𝖺𝖺𝗍 𝗄𝖺𝗋 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖴𝗇𝗌𝖾𝖾𝗇 𝖲𝖭𝖠𝖯-𝖫𝖾𝖺𝗄 𝖫𝖾𝗇𝖺 𝖧𝖺𝗂 𝖳𝗁𝗈 @ZenottyPremium !!\n\n 𝖣𝖬 : @Zenotty"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
