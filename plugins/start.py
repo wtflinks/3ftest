@@ -88,8 +88,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💀 𝖠𝖻𝗈𝗎𝗍 𝖯𝖠𝖯𝖠 𝖩𝖨", callback_data = "about"),
-                    InlineKeyboardButton("🍒 ᴘʀᴇᴍɪᴜᴍ", url='https://telegram.dog/ZenottyPremium')
+                    InlineKeyboardButton(text="𝖥𝗈𝗅𝗅𝗈𝗐 𝖴𝖲 𝖮𝗇 𝖨𝖭𝖲𝖳𝖠𝖦𝖱𝖠𝖬", url='https://insta.openinapp.co/bwpa4')
+                ],
+                 [
+                    InlineKeyboardButton("𝖠𝖻𝗈𝗎𝗍 𝖠𝖽𝗆𝗂𝗇 🗿", callback_data = "about"),
+                    InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ 🍒", url='https://telegram.dog/ZenottyPremium')
                 ]
             ]
         )
