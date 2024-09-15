@@ -1,7 +1,3 @@
-#(©)Codexbotz
-#@iryme
-
-
 
 
 
